@@ -1,0 +1,32 @@
+.map-container {
+    height: 100vh;
+    width: 100%;
+    z-index: 1;
+}
+
+.button-map {
+    position: absolute;
+    z-index: 2;
+    top: 100px;
+    left: 40px;
+    background-color: white ; /* Green */
+    width: 120px;
+    height: 80px;
+    border: 1px solid;
+    /* border: none; */
+    font-size: 16px;
+    cursor: pointer;
+    margin: 8px;
+    border-radius: 0.5rem;
+}
+
+.map-marker-icon {
+    width: 120px;
+    cursor: pointer;
+    margin: 15px 15px 0px 0px;
+    z-index: 9999;
+}
+
+.button-map:hover {
+    background-color: var(--red)
+}

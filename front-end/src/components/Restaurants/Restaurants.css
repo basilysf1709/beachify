@@ -1,0 +1,140 @@
+.restaurant-container {
+    position: absolute;
+    top: 80px;
+    width: 100%;
+}
+.search-container {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.res-input-container {
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid;
+    /* border: none; */
+    width: 240px;
+    margin: 5px;
+}
+::-webkit-input-placeholder {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+}
+
+.res-indiv-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: calc(100vh - 160px);
+}
+
+.res-text-container {
+    font-family: 'Open Sans', sans-serif;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.res-image-container {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.res-image-container img {
+    height: 100%;
+    width: 100%;
+    /* margin-bottom: 20px; */
+    /* border-radius: 2rem; */
+    /* border: 1px solid;
+    border-color: var(--red) */
+}
+
+/* .res-image-container img:hover {
+    transform: scale(1.03)
+} */
+
+.overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: var(--blue);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+  }
+  
+  .res-image-container:hover .overlay {
+    bottom: 0;
+    height: 100%;
+  }
+  
+  .res-text {
+    font-family: 'Montserrat', sans-serif;
+    white-space: nowrap; 
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+
+.res-image-container a {
+    background-color: white ; /* Green */
+    padding: 8px;
+    border: 1px solid;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 8px;
+    border-radius: 0.5rem;
+    height: 50px;
+    text-decoration: none;
+    border: none;
+    /* color: black; */
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+}
+
+/* .res-first-text {
+
+} */
+
+.res-second-text {
+    margin-top: 10px;
+}
+
+.res-image-container a:hover {
+    background-color: var(--red);
+}
+
+.res-button {
+    background-color: white ; /* Green */
+    width: 120px;
+    border: 1px solid;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 8px;
+    border-radius: 0.5rem;
+    height: 50px;
+}
+
+.res-button:hover {
+    background-color: #f73952;
+}
