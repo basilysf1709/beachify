@@ -1,6 +1,5 @@
 const { Client, PrivateKey, AccountCreateTransaction, AccountBalanceQuery, Hbar, TransferTransaction} = require("@hashgraph/sdk");
 require("dotenv").config();
-
 const main = async () => {
     const myAccountId = process.env.MY_ACCOUNT_ID;
     const myPrivateKey = process.env.MY_PRIVATE_KEY;
@@ -9,7 +8,6 @@ const main = async () => {
         throw new Error("Environment variables myAccountId and myPrivateKey must be present");
     }
     const client = Client.forTestnet();
-
     client.setOperator(myAccountId, myPrivateKey);
     const newAccountPrivateKey = await PrivateKey.generateED25519(); 
     const newAccountPublicKey = newAccountPrivateKey.publicKey;
