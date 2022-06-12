@@ -11,11 +11,13 @@
 
 To create an all-in-one off the shore/summer hack that everyone can use which stores data in DeSo Blockchain and makes transactions using Hedera Test Network
 
-## Technology Stack & System Architecture (MVC)
+## Technology Stack & System Architecture (MVC & MERN)
 
 ![image](https://user-images.githubusercontent.com/92009321/173211431-5841add3-1e86-49cb-a60d-795c7c6f0635.png)
 
 ![image](https://user-images.githubusercontent.com/92009321/173214044-895ae384-526e-482c-9a07-a86230c63d2a.png)
+
+![0_GKIyAWHbKbANm7d9](https://user-images.githubusercontent.com/92009321/173217701-8a880c2b-511e-4aa3-88be-e80a0bb24cdb.jpg)
 
 ## User Guide
 
