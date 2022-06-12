@@ -1,6 +1,6 @@
 # Beachify
 
-## Think Fun. Think Beachify : 
+## Think Fun. Think Beachify : https://github.com/basilysf1709/coastalHacks
 
 **Contributors:** Basil Yusuf <br>
 **Hackathon:** Coastal Hacks <br>
