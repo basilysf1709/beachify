@@ -29,7 +29,7 @@ To create a an all-in-one off the shore/summer hack that everyone can use which 
 8. Run this command(on both back-end and front-end): ```npm start```
 9. Enjoy the app!
 
-#Some pictures of the app
+## Some pictures of the app
 
 ![image](https://user-images.githubusercontent.com/92009321/173211518-8b969665-7cc2-41df-849a-0daa28f68914.png)
 ![image](https://user-images.githubusercontent.com/92009321/173211546-5a71f186-600d-4698-9e98-7a5dba939edd.png)
