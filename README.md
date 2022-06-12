@@ -1,6 +1,6 @@
 # Beachify
 
-Hackathon Update: 2nd Overall and Beat Blockchain Project Using Hedera
+Hackathon Update: 2nd Overall and Best Blockchain Project Using Hedera
 
 ## Think Fun. Think Beachify : https://github.com/basilysf1709/coastalHacks
 
