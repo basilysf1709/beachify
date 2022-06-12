@@ -14,6 +14,25 @@ const Plans = () => {
   const [category, setCategory] = React.useState<any>("");
   const [plan, setPlan] = React.useState<any>("");
 
+  const [hedera, setHedera] = React.useState<any>();
+
+  React.useEffect(() =>{
+    const fetchHedera = async () => {
+      try {
+        const {data : response} = await axios.get('https://testnet.mirrornode.hedera.com/api/v1/accounts/0.0.45945086')
+        console.log(response)
+        setHedera(response);
+      } catch (error) {
+        let errorMessage = "Failed";
+        if (error instanceof Error) {
+          errorMessage = error.message;
+        }
+        console.log(errorMessage);
+      }
+    }
+    fetchHedera()
+  }, [])
+
   const changeAdd = () => {
     if(add === false) {
       setAdd(true)
@@ -47,7 +66,6 @@ const Plans = () => {
       setLoading(true);
       try {
         const {data : response} = await axios.get('http://localhost:5500/users')
-        console.log(response)
         setData(response);
       } catch (error) {
         let errorMessage = "Failed";
@@ -206,6 +224,9 @@ const Plans = () => {
           <input className="submit-button" type="submit" value="Delete" />
         </form>
       }
+      {(hedera !== undefined && data.length > 2) && <h1 className="congratulations-text">Account ID: {hedera.account}: Congratulations you received a {hedera.transactions[0].transfers[
+        hedera.transactions[0].transfers.length - 1
+      ].amount}</h1>}
     </div>
   )
 }

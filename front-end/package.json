@@ -13,6 +13,7 @@
     "@types/react": "^18.0.12",
     "@types/react-dom": "^18.0.5",
     "axios": "^0.27.2",
+    "deso-protocol": "^0.3.2",
     "google-map-react": "^2.1.10",
     "google-maps-react": "^2.0.6",
     "react": "^18.1.0",

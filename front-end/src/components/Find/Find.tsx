@@ -26,7 +26,7 @@ const Find = () => {
   else return (
     <GoogleMap
       zoom={12}
-      center={{lat: 43.539814, lng: -80.246094}}
+      center={{lat: 43.66224622569736, lng:  -79.30884097266342}}
       mapContainerClassName="map-container"
     >
       <button onClick={changeNumber} className="button-map">
