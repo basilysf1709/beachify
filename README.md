@@ -15,7 +15,7 @@ To create an all-in-one off the shore/summer hack that everyone can use which st
 
 ![image](https://user-images.githubusercontent.com/92009321/173211431-5841add3-1e86-49cb-a60d-795c7c6f0635.png)
 
-![diagram drawio](https://user-images.githubusercontent.com/92009321/173210848-1804ff38-9292-498c-b807-3cf3c64a1eb0.svg)
+![image](https://user-images.githubusercontent.com/92009321/173214044-895ae384-526e-482c-9a07-a86230c63d2a.png)
 
 ## User Guide
 
