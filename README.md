@@ -13,7 +13,7 @@ To create an all-in-one off the shore/summer hack that everyone can use.
 
 ## Technology Stack & System Architecture (MVC)
 
-![Authentication drawio](https://user-images.githubusercontent.com/92009321/173211360-fe215b74-7e7a-4df2-87fd-4d5740a23f64.svg)
+![image](https://user-images.githubusercontent.com/92009321/173211431-5841add3-1e86-49cb-a60d-795c7c6f0635.png)
 
 ![diagram drawio](https://user-images.githubusercontent.com/92009321/173210848-1804ff38-9292-498c-b807-3cf3c64a1eb0.svg)
 
