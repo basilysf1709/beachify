@@ -1,5 +1,7 @@
 # Beachify
 
+Hackathon Update: 2nd Overall and Beat Blockchain Project Using Hedera
+
 ## Think Fun. Think Beachify : https://github.com/basilysf1709/coastalHacks
 
 **Contributors:** Basil Yusuf <br>
