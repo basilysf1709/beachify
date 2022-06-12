@@ -9,7 +9,7 @@
 
 ## Description of the Problem
 
-To create an all-in-one off the shore/summer hack that everyone can use.
+To create a an all-in-one off the shore/summer hack that everyone can use which stores data in DeSo Blockchain and makes transactions using Hedera Test Network
 
 ## Technology Stack & System Architecture (MVC)
 
